@@ -7,6 +7,7 @@ revealOptions:
   transition: 'convex'
 ---
 
+POE 8
 # Switching PSU
 Johan Paul
 
