@@ -44,7 +44,7 @@ $\frac {t_{on}}{t_{off}} = \frac {V_{out}+V_F}{V_{in(min)}-V_{sat}-V_{out}}= \fr
 
 ## Timing
 
-Off time
+
 
 $t_{off}= \frac {t_{on}+t_{off}}{\frac {t_{on}}{t_{off}}+1}=\frac {30.303}{2.5135+1}=8.624 \mu S$
 
@@ -83,4 +83,3 @@ $C_0 = \frac {I_{pk(switch)}+(t_{on}+t_{off})}{8 * V_{ripple(pp)}} = \frac {1A *
 Value of a capacitor $C_{inpp}$
 
 $C_{inpp}= \frac {I_{out}(D-D^2)}{V_{inpp(c)} * F_{sw}}=\frac{0.5(0.715 * 0.715^2)}{2.5 * 33kHz}=1.2\mu F$
-
